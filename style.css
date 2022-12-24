@@ -15,6 +15,20 @@ body {
     
 }
 
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-links {
     gap: 12px;
     display: flex;
@@ -49,7 +63,7 @@ body {
 
 .container-one {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     padding-right: 100px;
@@ -60,6 +74,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .container-three {
@@ -68,11 +84,15 @@ body {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .container-four {
     display: flex;
     justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .call {
@@ -82,10 +102,6 @@ body {
     background-color: #3882f6;
     border-radius: 8px;
     color: white;
-}
-
-.action, .action-info {
-    padding: 0;
 }
 
 .illustration-container {
