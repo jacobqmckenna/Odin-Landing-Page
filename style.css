@@ -70,14 +70,22 @@ body {
     align-items: center;
 }
 
+.container-four {
+    display: flex;
+    justify-content: center;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
 .illustration-container {
     display: flex;
     gap: 80px;
-}
-
-.author {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .quote {
@@ -86,6 +94,10 @@ body {
     color: #1f2937;
     filter: contrast(60%);
     width: 775px;
+}
+
+.author {
+    font-weight: 700;
 }
 
 .img-one, .img-two, .img-three, .img-four {
